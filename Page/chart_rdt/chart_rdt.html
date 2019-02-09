@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>魁岐小分队成绩报告</title>
+    <link rel="stylesheet" href="../../index.css">
+    <script src="../../f2-all.min.js"></script>
+</head>
+<body>
+    <div class="flex-area">
+        <div>
+            <label>请选择一个项目查看：</label>
+            <select name="chart" id="chart" onchange="ChangeChart()">
+                <option value="zygt" selected>共同和专业科目</option>
+                <option value="jctn">基础体能</option>
+            </select>
+        </div>
+        <div id="chart_1" class="chart-box selected">
+            <div class="chart-title">共同和专业科目能力分布</div>
+            <canvas id="Chart_1" class="chart rdt"></canvas>
+        </div>
+    
+        <div id="chart_2" class="chart-box">
+            <div class="chart-title">基础体能能力分布</div>
+            <canvas id="Chart_2" class="chart rdt"></canvas>
+        </div>
+    
+        <label for="" class="a-box"><a href="../chart_txt/chart_txt.html">查看下一项目</a></label>
+    </div>
+    
+
+    <script src="chart_rdt.js"></script>
+    
+</body>
+</html>

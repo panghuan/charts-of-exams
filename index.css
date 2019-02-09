@@ -1,0 +1,67 @@
+.chart-box {
+    margin-top: 20px;
+    display: none;
+}
+
+.selected {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-title {
+    /* display: flex; */
+    font-size: 12px;
+    text-align: center;
+    color: rgb(122, 121, 121);
+}
+
+.chart {
+    width: 380px;
+    height: 480px;
+    margin: auto;
+}
+
+.rdt, .yjt {
+    height: 380px;
+}
+
+.name-box {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(248, 245, 245);
+    box-shadow: 1px 1px 5px #999;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.a-box {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: rgb(248, 245, 245);
+    box-shadow: 1px 1px 5px #999;
+    text-align: center;
+}
+
+.title-area {
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.name-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+    text-align: center;
+}

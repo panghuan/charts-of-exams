@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>魁岐小分队成绩报告</title>
+    <link rel="stylesheet" href="../../index.css">
+    <script src="../../f2-all.min.js"></script>
+</head>
+<body class="flex-area">
+    <div>
+        <label>请选择一个项目查看：</label>
+        <select name="chart" id="chart" onchange="ChangeChart()">
+            <option value="tltl" selected>条令条例</option>
+            <option value="zyll">专业理论</option>
+            <option value="bmfg">保密法规</option>
+            <option value="xfjn">消防技能</option>
+            <option value="three_km">三公里</option>
+            <option value="sxp">蛇形跑</option>
+            <option value="ywqz">仰卧起坐</option>
+            <option value="ytxs">引体向上</option>
+        </select>
+    </div>
+    <div id="chart_1" class="chart-box selected">
+        <div class="chart-title">条令条例成绩分布</div>
+        <canvas id="Chart_1" class="chart"></canvas>
+    </div>
+
+    <div id="chart_2" class="chart-box">
+        <div class="chart-title">专业理论成绩分布</div>
+        <canvas id="Chart_2" class="chart"></canvas>
+    </div>
+
+    <div id="chart_3" class="chart-box">
+        <div class="chart-title">保密法规成绩分布</div>
+        <canvas id="Chart_3" class="chart"></canvas>
+    </div>
+    
+        <div id="chart_4" class="chart-box">
+            <div class="chart-title">消防技能成绩分布</div>
+            <canvas id="Chart_4" class="chart"></canvas>
+        </div>
+
+    <div id="chart_5" class="chart-box">
+        <div class="chart-title">三公里成绩分布</div>
+        <canvas id="Chart_5" class="chart"></canvas>
+    </div>
+
+    <div id="chart_6" class="chart-box">
+        <div class="chart-title">蛇形跑成绩分布</div>
+        <canvas id="Chart_6" class="chart"></canvas>
+    </div>
+
+    <div id="chart_7" class="chart-box">
+        <div class="chart-title">仰卧起坐成绩分布</div>
+        <canvas id="Chart_7" class="chart"></canvas>
+    </div>
+
+    <div id="chart_8" class="chart-box">
+        <div class="chart-title">引体向上成绩分布</div>
+        <canvas id="Chart_8" class="chart"></canvas>
+    </div>
+
+    <label for="" class="a-box"><a href="../chart_rdt/chart_rdt.html">查看上一项目</a></label>
+    <label for="" class="a-box"><a href="../chart_yjt/chart_yjt.html">查看下一项目</a></label>
+
+    <script src="chart_txt.js"></script>
+    
+</body>
+</html>
