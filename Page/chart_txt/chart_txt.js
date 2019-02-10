@@ -10,7 +10,7 @@ var data = [
     { id: 'Ｌ　Ｐ', name: '廖　平', tltl: 79, zyll: 39, bmfg: 96,  xfjn: 7,  three_km: 789, sxp: 18.45, ywqz: 77, ytxs: 18 },
     { id: 'Ｚ　Ｌ', name: '张　力', tltl: 77, zyll: 69, bmfg: 65,  xfjn: 15, three_km: 770, sxp: 20.35, ywqz: 80, ytxs: 2  },
     { id: 'ＬＬＪ', name: '刘莲杰', tltl: 79, zyll: 61, bmfg: 88,  xfjn: 11, three_km: 959, sxp: 21.32, ywqz: 57, ytxs: 7  },
-    { id: 'ＷＺＣ', name: '吴加才', tltl: 70, zyll: 66, bmfg: 90,  xfjn: 14, three_km: 743, sxp: 19.39, ywqz: 70, ytxs: 5  },
+    { id: 'ＷＪＣ', name: '吴加才', tltl: 70, zyll: 66, bmfg: 90,  xfjn: 14, three_km: 743, sxp: 19.39, ywqz: 70, ytxs: 5  },
     { id: 'ＬＲＹ', name: '李瑞营', tltl: 82, zyll: 65, bmfg: 86,  xfjn: 17, three_km: 737, sxp: 18.90, ywqz: 69, ytxs: 3  },
     { id: 'Ｗ　Ｈ', name: '王　晗', tltl: 88, zyll: 89, bmfg: 100, xfjn: 15, three_km: 773, sxp: 20.01, ywqz: 39, ytxs: 2  },
     { id: 'ＱＨＨ', name: '钱洪辉', tltl: 77, zyll: 54, bmfg: 92,  xfjn: 14, three_km: 828, sxp: 21.39, ywqz: 36, ytxs: 1  },
